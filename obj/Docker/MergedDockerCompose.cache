@@ -15,6 +15,7 @@ services:
       DatabasePassword: ProductApi(!)
       DatabaseServer: mssqlserver
       DatabaseUser: sa
+      ExternalCatalogUrl: http://localhost:7000
     image: jewels/catalogapi
     networks:
       backend: null

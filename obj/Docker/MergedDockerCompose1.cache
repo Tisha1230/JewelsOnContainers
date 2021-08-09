@@ -22,6 +22,7 @@ services:
       DatabasePassword: ProductApi(!)
       DatabaseServer: mssqlserver
       DatabaseUser: sa
+      ExternalCatalogUrl: http://localhost:7000
       NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
     image: jewels/catalogapi:dev
     labels:

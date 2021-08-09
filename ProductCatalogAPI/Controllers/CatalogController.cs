@@ -57,6 +57,51 @@ namespace ProductCatalogAPI.Controllers
             return Ok(model); //returning a json object (status) and data of items to caller
         }
 
+
+        [HttpGet("[action]/type/{catalogTypeId}/brand/{catalogBrandId}")] //TRY FROM QUERY
+        public async Task<IActionResult> Items(
+            int? catalogTypeId,        //int? = nullable int 
+            int? catalogBrandId,
+            [FromQuery] int pageIndex = 0,
+            [FromQuery] int pageSize = 6)
+        {
+            var query = (IQueryable<CatalogItem>)_context.Catalog; //converting into queryable type of Catalog table.
+                                                                   //saying it is just a query, don't execute it right now
+
+            if (catalogTypeId.HasValue)
+            {
+                query = query.Where(c => c.CatalogTypeId == catalogTypeId); 
+            }
+            if (catalogBrandId.HasValue)
+            {
+                query = query.Where(c => c.CatalogBrandId == catalogBrandId);
+            }
+
+            var itemsCount = query.LongCountAsync(); 
+
+            var items = await query  
+                .OrderBy(c => c.Name)
+                .Skip(pageIndex * pageSize)
+                .Take(pageSize)
+                .ToListAsync(); 
+
+
+            items = ChangePictureUrl(items);
+
+            var model = new PaginatedItemsViewModel
+            {
+                PageIndex = pageIndex,
+                PageSize = items.Count,
+                Count = itemsCount.Result, 
+                Data = items
+
+
+            };
+
+            return Ok(model); //returning a json object (status) and data of items to caller
+        }
+
+
         //method to replace the http://externalcatalogbaseurltobereplaced Url of each item with config value(ExternalCatalogUrl)
 
         private List<CatalogItem> ChangePictureUrl(List<CatalogItem> items)
@@ -66,6 +111,22 @@ namespace ProductCatalogAPI.Controllers
             //replace method gives a new string back, so need to overwrite the picture Url with the change
 
             return items;
+        }
+
+        //method for Types Filter
+        [HttpGet("[action]")]
+        public async Task<IActionResult> CatalogTypes()
+        {
+            var types = await _context.CatalogTypes.ToListAsync();
+            return Ok(types);
+        }
+
+        //method for Brands filter
+        [HttpGet("[action]")]
+        public async Task<IActionResult> CatalogBrands()
+        {
+            var brands = await _context.CatalogBrands.ToListAsync();
+            return Ok(brands);
         }
     }
 }

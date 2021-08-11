@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "53OBPStslhki8A7LgmanYjGykl4O4e/i4l5ZLrRN8dHJLdfiG53GcBo6Aobe3o5DtnLhmpDrzwlmDZGrAdHMlA==",
+  "dgSpecHash": "lm04grC7/ka100UKlhOwN/8RYRiwXws3c6VBV9/7h3G9DwcMD0ksdL76DxvQEOMlHr5rEAftHSoUaQ2s5G5zWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tisha\\Desktop\\Bootcamp\\Microservices\\JewelsOnContainers\\WebMvc\\WebMvc.csproj",
+  "projectFilePath": "D:\\Tisha Bootcamp\\JewelsOnContainers\\WebMvc\\WebMvc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tisha\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
-    "C:\\Users\\tisha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

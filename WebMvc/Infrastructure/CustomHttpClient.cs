@@ -13,6 +13,7 @@ namespace WebMvc.Infrastructure
         {
             _client = new HttpClient(); //instance of client = opening instance of postman
         }
+
         public async Task<string> GetStringAsync(string uri,
             string authorizationToken = null, string authorizationMethod = "Bearer")
         {

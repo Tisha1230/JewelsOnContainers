@@ -47,7 +47,7 @@ namespace WebMvc.Services
                         Text = brand.Value<string>("brand")
                     });
             }
-            return items; //returning a liat of seect list items
+            return items; //returning a liat of select list items
         }
 
         public async Task<IEnumerable<SelectListItem>> GetTypesAsync()

@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "lm04grC7/ka100UKlhOwN/8RYRiwXws3c6VBV9/7h3G9DwcMD0ksdL76DxvQEOMlHr5rEAftHSoUaQ2s5G5zWQ==",
+  "dgSpecHash": "HWvLxraLbnhHdKtvsPCoXGLREhOkJwA3qi82xE881Ha0IA9qZlyFZ1ATgw5muE3bo8OKxwpjVtIUjRg9RYEBEg==",
   "success": true,
   "projectFilePath": "D:\\Tisha Bootcamp\\JewelsOnContainers\\WebMvc\\WebMvc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\3.1.13\\microsoft.aspnetcore.authentication.openidconnect.3.1.13.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.identitymodel.logging\\5.5.0\\microsoft.identitymodel.logging.5.5.0.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\prera\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
-    "C:\\Users\\prera\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\prera\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.5.0\\system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512",
+    "C:\\Users\\prera\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

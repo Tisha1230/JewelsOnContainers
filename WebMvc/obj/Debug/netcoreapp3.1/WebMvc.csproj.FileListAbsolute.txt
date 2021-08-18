@@ -40,3 +40,10 @@ D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\WebMvc.cspro
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\WebMvc.dll
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\WebMvc.pdb
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\WebMvc.genruntimeconfig.cache
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

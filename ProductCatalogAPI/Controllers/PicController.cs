@@ -21,6 +21,7 @@ namespace ProductCatalogAPI.Controllers
         }
 
         [Route("{id}")] 
+        [HttpGet]
         public IActionResult GetImage(int id)
         {
             var webRoot = _env.WebRootPath; //WebRootPath gets the location of wwwroot

@@ -124,3 +124,8 @@ D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\obj\Debug\netcoreapp3.1\P
 D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\obj\Debug\netcoreapp3.1\ProductCatalogAPI.dll
 D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\obj\Debug\netcoreapp3.1\ProductCatalogAPI.pdb
 D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\obj\Debug\netcoreapp3.1\ProductCatalogAPI.genruntimeconfig.cache
+D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Tisha Bootcamp\JewelsOnContainers\ProductCatalogAPI\obj\Debug\netcoreapp3.1\ProductCatalogAPI.MvcApplicationPartsAssemblyInfo.cs

@@ -56,6 +56,7 @@ services:
       CatalogUrl: http://catalog
       IdentityUrl: http://192.168.1.23:7800
       CallBackUrl: http://localhost:7500
+      CartUrl: http://cart
     ports:
       - "7500:80"
     container_name: webshop
@@ -64,6 +65,7 @@ services:
     depends_on:
       - catalog
       - tokenserver
+      - cart
 
   tokenserver:
     build:

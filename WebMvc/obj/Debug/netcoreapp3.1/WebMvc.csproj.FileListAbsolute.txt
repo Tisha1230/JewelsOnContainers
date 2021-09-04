@@ -47,3 +47,9 @@ D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.Id
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Polly.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CartList\Default.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

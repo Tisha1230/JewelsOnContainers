@@ -9,7 +9,7 @@ namespace WebMvc.Services
 {
     public interface ICatalogService
     {
-        Task<Catalog> GetCatalogItemsAsync(int page, int size, int? brand, int? type);  
+        Task<Catalog> GetCatalogItemsAsync(int page, int size, int? brand, int? type);
         Task<IEnumerable<SelectListItem>> GetBrandsAsync(); //Brand DropDown 
         Task<IEnumerable<SelectListItem>> GetTypesAsync();
     }

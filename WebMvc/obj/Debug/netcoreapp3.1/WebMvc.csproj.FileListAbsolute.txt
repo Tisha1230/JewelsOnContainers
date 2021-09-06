@@ -53,3 +53,14 @@ D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
 D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\Stripe.net.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\Complete.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\Create.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\Detail.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\Orders.cshtml.g.cs
+D:\Tisha Bootcamp\JewelsOnContainers\WebMvc\obj\Debug\netcoreapp3.1\Razor\Views\Order\_OrderItems.cshtml.g.cs

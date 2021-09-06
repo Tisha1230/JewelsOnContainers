@@ -35,6 +35,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
           "Newtonsoft.Json": "13.0.1",
           "Polly": "7.2.2",
+          "Stripe.net": "39.66.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -268,7 +269,7 @@
           "System.Runtime.Serialization.Json": "4.0.5.0",
           "System.Runtime.Serialization.Primitives": "4.2.2.0",
           "System.Runtime.Serialization.Xml": "4.1.5.0",
-          "System.Security.AccessControl": "4.1.1.0",
+          "System.Security.AccessControl.Reference": "4.1.1.0",
           "System.Security.Claims": "4.1.2.0",
           "System.Security.Cryptography.Algorithms": "4.3.2.0",
           "System.Security.Cryptography.Cng.Reference": "4.3.3.0",
@@ -278,9 +279,9 @@
           "System.Security.Cryptography.X509Certificates": "4.2.2.0",
           "System.Security.Cryptography.Xml": "4.0.3.0",
           "System.Security": "4.0.0.0",
-          "System.Security.Permissions": "4.0.3.0",
+          "System.Security.Permissions.Reference": "4.0.3.0",
           "System.Security.Principal": "4.1.2.0",
-          "System.Security.Principal.Windows": "4.1.1.0",
+          "System.Security.Principal.Windows.Reference": "4.1.1.0",
           "System.Security.SecureString": "4.1.2.0",
           "System.ServiceModel.Web": "4.0.0.0",
           "System.ServiceProcess": "4.0.0.0",
@@ -337,6 +338,17 @@
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
       "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
@@ -412,6 +424,7 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {},
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
@@ -435,6 +448,37 @@
           "lib/netstandard2.0/Polly.dll": {}
         }
       },
+      "Stripe.net/39.66.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Stripe.net.dll": {
+            "assemblyVersion": "39.66.0.0",
+            "fileVersion": "39.66.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Stripe.net.dll": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/5.5.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "5.5.0",
@@ -451,7 +495,39 @@
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
       "System.Security.Cryptography.Cng/4.5.0": {},
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -1850,7 +1926,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.AccessControl/4.1.1.0": {
+      "System.Security.AccessControl.Reference/4.1.1.0": {
         "compile": {
           "System.Security.AccessControl.dll": {}
         },
@@ -1910,7 +1986,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.Permissions/4.0.3.0": {
+      "System.Security.Permissions.Reference/4.0.3.0": {
         "compile": {
           "System.Security.Permissions.dll": {}
         },
@@ -1922,7 +1998,7 @@
         },
         "compileOnly": true
       },
-      "System.Security.Principal.Windows/4.1.1.0": {
+      "System.Security.Principal.Windows.Reference/4.1.1.0": {
         "compile": {
           "System.Security.Principal.Windows.dll": {}
         },
@@ -2159,6 +2235,13 @@
       "path": "microsoft.aspnetcore.authentication.openidconnect/3.1.13",
       "hashPath": "microsoft.aspnetcore.authentication.openidconnect.3.1.13.nupkg.sha512"
     },
+    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512"
+    },
     "Microsoft.IdentityModel.JsonWebTokens/5.5.0": {
       "type": "package",
       "serviceable": true,
@@ -2194,6 +2277,13 @@
       "path": "microsoft.identitymodel.tokens/5.5.0",
       "hashPath": "microsoft.identitymodel.tokens.5.5.0.nupkg.sha512"
     },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.10.13": {
       "type": "package",
       "serviceable": true,
@@ -2215,6 +2305,20 @@
       "path": "polly/7.2.2",
       "hashPath": "polly.7.2.2.nupkg.sha512"
     },
+    "Stripe.net/39.66.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0UdOS05+y7UuTQ9qBy+J4TwQkx1JEpNrsbR68G3pYFdekD5WYfCPwVYVs75UsxV6vSLlGyqKzM5GJYl1ZoMTg==",
+      "path": "stripe.net/39.66.0",
+      "hashPath": "stripe.net.39.66.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
     "System.IdentityModel.Tokens.Jwt/5.5.0": {
       "type": "package",
       "serviceable": true,
@@ -2222,12 +2326,40 @@
       "path": "system.identitymodel.tokens.jwt/5.5.0",
       "hashPath": "system.identitymodel.tokens.jwt.5.5.0.nupkg.sha512"
     },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
     "System.Security.Cryptography.Cng/4.5.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
@@ -3394,7 +3526,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.AccessControl/4.1.1.0": {
+    "System.Security.AccessControl.Reference/4.1.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3444,7 +3576,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.Permissions/4.0.3.0": {
+    "System.Security.Permissions.Reference/4.0.3.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -3454,7 +3586,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Security.Principal.Windows/4.1.1.0": {
+    "System.Security.Principal.Windows.Reference/4.1.1.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

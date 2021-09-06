@@ -66,5 +66,22 @@ namespace WebMvc.Infrastructure
                 return $"{baseUri}/{basketId}";
             }
         }
+
+        public static class Order
+        {
+            public static string GetOrder(string baseUri, string orderId) //given the id it will get your order
+            {
+                return $"{baseUri}/{orderId}";
+            }
+
+            public static string GetOrders(string baseUri) // it will give you all your orders that has been placed
+            {
+                return baseUri;
+            }
+            public static string AddNewOrder(string baseUri) //add a new order
+            {
+                return $"{baseUri}/new";
+            }
+        }
     }
 }

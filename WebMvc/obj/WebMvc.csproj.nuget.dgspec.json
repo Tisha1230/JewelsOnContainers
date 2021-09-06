@@ -55,6 +55,10 @@
             "Polly": {
               "target": "Package",
               "version": "[7.2.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.66.0, )"
             }
           },
           "imports": [
